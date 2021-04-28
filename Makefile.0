@@ -1,0 +1,10 @@
+TARGET = lampout1trans
+CHILD  = lampout1trans
+LIB    = charint
+
+$(TARGET): $(LIB).h $(LIB).cpp $(CHILD).h $(CHILD).cpp main.cpp
+	g++ -o $(TARGET) $(LIB).h $(LIB).cpp $(CHILD).h $(CHILD).cpp main.cpp
+
+clear:
+	rm *.o
+
