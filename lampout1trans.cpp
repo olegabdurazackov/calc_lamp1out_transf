@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include "wyhtrans.h"
+#include "lampout1trans.h"
 WyhTrans::WyhTrans()
 {
    //const float pi=3.14;

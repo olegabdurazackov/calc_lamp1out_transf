@@ -5,13 +5,13 @@
  ************************************* */
 #include <stdio.h>
 #include <math.h>
-#include "wyhtrans.cpp"
+#include "lampout1trans.h"
 #include <iostream>
-#include "charint.cpp"
+#include "charint.h"
 #include <string.h>
 int main(int argc, char *argv[])
 {
-    printf("\nИспользование : w1tr -значение параметр...");
+    printf("\nИспользование : lampout1trans -значение параметр...");
     printf("\n\tпример : w1tr -Ri 1000.0 -a 3.5 -h 5.0\n");
     if (argc>0)
     {
