@@ -1,7 +1,7 @@
 TARGET = calc-lamp_out1transf
 CHILD  = lampout1trans
 LIB    = charint
-CC     = g++
+CC     = @CXX@
 $(TARGET): $(LIB).h $(LIB).cpp $(CHILD).h $(CHILD).cpp main.cpp
 	$(CC) -o $(TARGET) $(LIB).h $(LIB).cpp $(CHILD).h $(CHILD).cpp main.cpp
 
